@@ -1,0 +1,228 @@
+@font-face {
+    font-family: Aeonik Pro;
+    src: url(fonts/AeonikPro.otf);
+}
+
+.page {
+    height: 100vh;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #333 !important;
+    text-decoration: none !important;
+}
+
+.main-content {
+    width: 90%;
+}
+
+.main-content-row-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.main-image-section {
+    width: 35%;
+}
+
+.main-text-section {
+    width: 35%;
+}
+
+.main-text-image {
+    width: 100%;
+}
+
+.main-text-button {
+    background-color: #246BA1;
+    border-radius: 4px;
+    color: white;
+    width: 100%;
+    height: 56px;
+    font-size: 16px;
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.main-text-button:hover {
+    color: white !important;
+    background-color: #2b91df;
+}
+
+.main-text-button:active {
+    color: white !important;
+}
+
+.main-image {
+    width: 100%;
+}
+
+.download-icon {
+    height: 16px;
+    margin-left: 0.5rem;
+}
+
+.main-content-row-2 {
+    margin-top: 80px;
+    height: 140px;
+    width: 100%;
+    background-color: #EFC245;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 32px 24px;
+    border-radius: 4px;
+}
+
+.main-content-row-2-text-section {
+    width: 80%;
+}
+
+.main-content-row-2-text-title {
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.main-content-row-2-text {
+    font-size: 24px;
+}
+
+.main-content-row-2-image-section {
+    height: 100%;
+    width: 20%;
+    display: flex;
+}
+
+.main-content-row-2-image {
+    height: 100%;
+    margin-left: auto;
+}
+
+body {
+    font-family: 'Aeonik Pro';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    text-transform: uppercase;
+}
+
+.main-content-row-3 {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.main-content-row-3-card {
+    background-color: #DADADA;
+    opacity: 1;
+    background-image:  linear-gradient(#cacaca 1.4000000000000004px, transparent 1.4000000000000004px), linear-gradient(to right, #cacaca 1.4000000000000004px, #DADADA 1.4000000000000004px);
+    background-size: 48px 48px;
+    height: 112px;
+    width: 50%;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.main-content-row-3-card-image {
+    height: 40%;
+}
+
+.main-content-row-3-card-text {
+    font-size: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.main-content-row-3-card-link:hover {
+    cursor: pointer;
+}
+
+.open-arrow-icon {
+    height: 16px;
+    margin-left: 1rem;
+}
+
+.main-content-row-3-card-link {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 780px) {
+    .page {
+        height: auto;
+    }
+
+    .main-content {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+
+    .main-content-row-1 {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-image-section {
+        width: 90%;
+    }
+    
+    .main-text-section {
+        width: 90%;
+    }
+
+    .main-content-row-2 {
+        height: 122px;
+    }
+
+    .main-content-row-2-text-section {
+        width: 100%;
+    }
+
+    .main-content-row-2-image {
+        height: 80%;
+        margin-left: auto;
+    }
+
+    .main-content-row-2-text, .main-content-row-2-text-title {
+        font-size: 14px;
+    }
+
+    .main-content-row-3 {
+        flex-direction: column;
+    }
+
+    .main-content-row-3-card {
+        width: 100%;
+        height: 80px;
+    }
+
+    .main-content-row-3-card-image {
+        height: 40%;
+    }
+
+    .main-content-row-3-card-text {
+        font-size: 14px;
+    }
+}
